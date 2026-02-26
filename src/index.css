@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body { margin: 0px; }
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid gray;;
+  padding: 8px;
+}
+
+
+
+thead {
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+
+tr th {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+tr td:last-child {
+  border-right: 3px solid black;
+} 
+
+tbody tr:last-child {
+  border-bottom: 3px solid black;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.center-column{
+  flex-direction: column;
+}
+
+.boxinput{
+  padding: 1%;
+  text-align: center;
+  
+}
+
+.box{
+  background-color: WhiteSmoke;
+  border: 3px solid lightgray;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+}
